@@ -7,6 +7,7 @@ Fluent Python
 ----
 
 **Print array of numbers to one line string**
+
 ```python
 >>> a=[1, 2, 3]
 >>> print a
