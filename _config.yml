@@ -5,3 +5,5 @@ gems:
    - jekyll-sitemap
    - jekyll-feed
 baseurl: /notes
+markdown: redcarpet
+extensions: [fenced_code_blocks]
