@@ -1,3 +1,8 @@
+---
+layout: default
+title: Fluent Python 
+---
+
 Fluent Python 
 ----
 
