@@ -23,3 +23,32 @@ TypeError: sequence item 0: expected string, int found
 >>> print ' '.join(map(str, a))
 1 2 3
 ```
+
+
+**char - lowercase / uppercase**
+
+```python
+def swap_case(input):
+    output = []
+    for c in input:
+        output.append(str.upper(c) if c.islower() else str.lower(c))
+    return''.join(output) 
+```
+
+
+**python division**
+
+```python
+>>> 4/3
+1
+>>> 4/3.0
+1.3333333333333333
+>>> 4/float(3)
+1.3333333333333333
+>>> 
+>>> from __future__ import division
+>>> 4/3
+1.3333333333333333
+>>> 4//3
+1
+```
