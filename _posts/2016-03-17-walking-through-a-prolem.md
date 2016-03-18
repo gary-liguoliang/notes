@@ -1,3 +1,8 @@
+---
+layout: default
+title: walking through the problem
+---
+
 1. **Listen carefully**: make sure you hear the problem correctly, ask questions about anything yhou're unsure about. mentally **recorded any unique information** in the probleml, write down if necessary;
 2. **Draw an example**: the example should not be too simple, **validate the solution** using example and check boundary vlaue**
 3. **state brute force** explain what the space and time complexity then drive into imporvents
