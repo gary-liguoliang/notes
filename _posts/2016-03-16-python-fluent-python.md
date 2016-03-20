@@ -6,6 +6,24 @@ title: Fluent Python
 Fluent Python 
 ----
 
+**string to array of char**
+
+```python
+>>> s = 'abcde'
+>>> list(s)
+['a', 'b', 'c', 'd', 'e']
+```
+
+**remove item from array**
+
+```python
+>>> a
+['a', 'b', 'c', 'd', 'e']
+>>> a.remove('c')
+>>> a
+['a', 'b', 'd', 'e']
+```
+
 **Print array of numbers to one line string**
 
 ```python
