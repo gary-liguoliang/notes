@@ -5,6 +5,7 @@ title: Fluent Python
 
 Fluent Python 
 ----
+
 # collections
 
 ## list / array
@@ -26,6 +27,23 @@ Fluent Python
 >>> a.remove('c')
 >>> a
 ['a', 'b', 'd', 'e']
+```
+
+**filter**
+
+```python
+>>> l = [1, 3, 5, 7, 9]
+>>> filter(lambda i: i % 3 == 0, l)
+[3, 9]
+```
+
+**map**
+
+```python
+>>> l
+[1, 3, 5, 7, 9]
+>>> map(lambda i: i * 2, l)
+[2, 6, 10, 14, 18]
 ```
 
 **print array of numbers to one line string**
