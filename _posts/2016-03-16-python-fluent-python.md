@@ -5,7 +5,11 @@ title: Fluent Python
 
 Fluent Python 
 ----
+# collections
 
+## list / array
+
+### string to list 
 **string to array of char**
 
 ```python
@@ -14,8 +18,8 @@ Fluent Python
 ['a', 'b', 'c', 'd', 'e']
 ```
 
+### remove / print
 **remove item from array**
-
 ```python
 >>> a
 ['a', 'b', 'c', 'd', 'e']
@@ -24,7 +28,7 @@ Fluent Python
 ['a', 'b', 'd', 'e']
 ```
 
-**Print array of numbers to one line string**
+**print array of numbers to one line string**
 
 ```python
 >>> a=[1, 2, 3]
@@ -42,6 +46,40 @@ TypeError: sequence item 0: expected string, int found
 1 2 3
 ```
 
+## set
+```python
+>>> s1 = set('abc')
+>>> s2 = set(['a', 'c', 'e'])
+>>> s1.add('f')
+>>> s1
+set(['a', 'c', 'b', 'f'])
+>>> s2
+set(['a', 'c', 'e'])
+
+>>> s1.update(['x', 'y'])
+>>> s1
+set(['a', 'c', 'b', 'f', 'y', 'x'])
+
+>>> s1
+set(['a', 'c', 'b', 'f', 'y', 'x'])
+>>> s2
+set(['a', 'c', 'e'])
+>>> 
+>>> s1 | s2
+set(['a', 'c', 'b', 'e', 'f', 'y', 'x'])
+>>> 
+>>> s1 & s2
+set(['a', 'c'])
+>>> 
+>>> s1 - s2
+set(['y', 'x', 'b', 'f'])
+>>> 
+>>> s2 - s1
+set(['e'])
+```
+
+
+# String
 
 **char - lowercase / uppercase**
 
@@ -53,6 +91,7 @@ def swap_case(input):
     return''.join(output) 
 ```
 
+# math
 
 **python division**
 
