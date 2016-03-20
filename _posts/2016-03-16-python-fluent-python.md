@@ -21,6 +21,7 @@ Fluent Python
 
 ### remove / print
 **remove item from array**
+
 ```python
 >>> a
 ['a', 'b', 'c', 'd', 'e']
@@ -28,6 +29,8 @@ Fluent Python
 >>> a
 ['a', 'b', 'd', 'e']
 ```
+
+### filter, map, reduce
 
 **filter**
 
@@ -45,6 +48,18 @@ Fluent Python
 >>> map(lambda i: i * 2, l)
 [2, 6, 10, 14, 18]
 ```
+
+**reduce**
+
+```python
+>>> l
+[1, 3, 5, 7, 9]
+>>> reduce(lambda a, b: a + b, l)
+25
+>>> reduce(lambda a, b: a if a > b else b, l)
+9
+```
+
 
 **print array of numbers to one line string**
 
