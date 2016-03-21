@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: post 
 title: reset mysql root password
+tags:
+- mysql
+- database
 ---
 
 1. stop mysql: http://stackoverflow.com/questions/18733944/ubuntu-cant-stop-mysqld

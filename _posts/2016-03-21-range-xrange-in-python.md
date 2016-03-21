@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: post 
 title: range, xrange in python
+tags:
+- python
 ---
 
 I made a stupid mistake today when I try to travel for the end of an array to the begining using:

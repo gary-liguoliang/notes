@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: post 
 title: Python convert datetime by timezone
+tags:
+- python
 ---
 
 ```python

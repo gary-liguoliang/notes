@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: post 
 title: Python methods return value
+tags:
+- python 
 ---
 
 ```python

@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: post 
 title: Fluent Python 
+tags:
+- python
 ---
 
 Fluent Python 

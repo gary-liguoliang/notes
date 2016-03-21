@@ -1,6 +1,8 @@
 ---
-layout: default
+layout: post 
 title: Python - multiprocessing forking.py assertionError
+tags:
+- python
 ---
 
 Lettcue with Python (< 2.7.11): multiprocessing\forking.py AssertionError: __main__
