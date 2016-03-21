@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Python: multiprocessing forking.py assertionError
+title: Python - multiprocessing forking.py assertionError
 ---
-
 
 Lettcue with Python (< 2.7.11): multiprocessing\forking.py AssertionError: __main__
 
