@@ -3,6 +3,7 @@ layout: default
 title: Python: multiprocessing\forking.py assertionError
 ---
 
+
 Lettcue with Python (< 2.7.11): multiprocessing\forking.py AssertionError: __main__
 
 **Issue:**
@@ -18,9 +19,9 @@ File "C:\Python27\Lib\multiprocessing\forking.py", line 380, in main
 AssertionError: __main__
 ```
 
-**solution**
+**Solution**
 
- - **Upgrade to python 2.7.11** becuase this is a fixed bug: https://bugs.python.org/issue10128; or
+ - **upgrade to python 2.7.11** becuase this is a fixed bug: https://bugs.python.org/issue10128; or
  - **use a wrapper** (.py file name should be not in sys.modules, main_name):
 
 ```python
