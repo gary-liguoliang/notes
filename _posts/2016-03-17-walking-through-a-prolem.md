@@ -8,5 +8,5 @@ title: walking through the problem
 3. **state brute force** explain what the space and time complexity then drive into imporvents
 4. **Optimize** look at unused info? use a fresh example? __BUD__: **B**ottlenecks, **U**nnecessary work, **D**uplicated work. 
 5. **Walk through** after you've nailed down an optimal algorithm, dont just dive into coding, take a moment to solidify your understanding of the algorithm.
-6. **code**
+6. **code** if you have more time, do refactor the code e.g. ``` if i == 1: ... elif i ==2 ...``` -> ``` if i in (1, 2):..```
 7. **test**
