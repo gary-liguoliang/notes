@@ -126,6 +126,15 @@ def swap_case(input):
     return''.join(output) 
 ```
 
+**String to int***
+don't need to do ```s.strip()```
+
+```python
+>>> int('    1  ')
+1
+```
+
+
 # math
 
 **python division**
