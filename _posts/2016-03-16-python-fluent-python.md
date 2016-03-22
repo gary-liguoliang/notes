@@ -126,12 +126,35 @@ def swap_case(input):
     return''.join(output) 
 ```
 
-**String to int***
+**String to int**
+
 don't need to do ```s.strip()```
 
 ```python
 >>> int('    1  ')
 1
+```
+
+**ASCII value of char**
+
+```python
+>>> ord('a')
+97
+>>> chr(97)
+'a'
+```
+
+**checking & chaning upper/lower case**
+
+```python
+>>> str.islower('a')
+True
+>>> str.isupper('Z')
+True
+>>> str.isupper('z'.upper())
+True
+>>> str.islower('A'.lower())
+True
 ```
 
 
