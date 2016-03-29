@@ -1,6 +1,8 @@
 ---
-layout: defalt
+layout: post
 title: Python warning - mutable object as default parameter
+tags:
+- python
 ---
 
 ### Issue
