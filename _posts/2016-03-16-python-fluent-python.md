@@ -12,6 +12,10 @@ Fluent Python
 
 ## list / array
 
+### Create array with fixed size and value
+empty_array = [None] * 5
+checked_array = [False] * 10
+
 ### string to list 
 **string to array of char**
 
