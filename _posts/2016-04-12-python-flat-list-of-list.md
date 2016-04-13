@@ -8,3 +8,5 @@ title: Python flat a list of list
 >>> [i for sublist in l for i in sublist]
 [1, 2, 3, 4, 5, 6]
 ```
+
+http://stackoverflow.com/questions/952914/making-a-flat-list-out-of-list-of-lists-in-python
