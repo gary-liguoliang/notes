@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Python flat a list of list
+tags:
+ - python
 ---
 
 ```python
