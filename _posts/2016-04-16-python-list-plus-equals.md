@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python list plus equals (+=) operator 
-tages:
+tags:
  - python
 ---
 
