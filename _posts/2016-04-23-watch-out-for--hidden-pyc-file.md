@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Python: Watch out for the hidden .pyc file!
+title: Python- Watch out for the hidden .pyc file!
 tags:
- - python
+ python
 ---
 
 ###What happend:
