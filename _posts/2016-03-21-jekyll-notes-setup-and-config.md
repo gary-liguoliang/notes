@@ -23,6 +23,9 @@ tags:
 
 [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
 
+**comments**
+[disqus](https://disqus.com/)
+
 
 ## Config & Enhancement
 **add support for tags**
