@@ -57,6 +57,7 @@ ELSE
 
 ---
 **Code**
+
 ```sql
 IF (OBJECT_ID('dbo.SP_Reporting') IS NOT NULL)
   DROP PROCEDURE dbo.SP_Reporting
