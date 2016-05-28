@@ -32,6 +32,7 @@ if the input is 'US', the output will contains two columns, else it will contain
 There's a samilar post on [StackOverflow](http://stackoverflow.com/questions/18346484/ssis-package-not-wanting-to-fetch-metadata-of-temporary-table), one of the suggestions is to use `SET FMTONLY ON`, however, this option has been [deprecated since SQL Server 2012](https://msdn.microsoft.com/en-us/library/ms143729(v=sql.110).aspx). one of the replacements is [sp_describe_first_result_set (Transact-SQL)](https://msdn.microsoft.com/en-us/library/ff878602(v=sql.110).aspx). 
 several posts show that SSIS 2012 is using sp_describe_first_result_set. [source1](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/cfe1c7c1-910a-4f52-9718-c3406263b177/usage-of-temp-tables-in-ssis-2012?forum=sqlintegrationservices) [souce2](http://stackoverflow.com/questions/18346484/ssis-package-not-wanting-to-fetch-metadata-of-temporary-table)
 however, I canot find any evidence for this conclusion. I'm going to verify it by executing `EXECUTE sp_describe_first_result_set "dbo.SP_Reporting 'US'"`, same error message returned:
+
 ```
 Msg 11512, Level 16, State 1, Procedure sp_describe_first_result_set, Line 1
 The metadata could not be determined because the statement 'SELECT '1' AS CountryCode, 'BranchCode' as BranchCode' in procedure 'SP_Reporting' is not compatible with the statement 'SELECT '-1' AS CountryCode' in procedure 'SP_Reporting'.
