@@ -51,6 +51,7 @@ it works perfect with the virtualenv.
 **Unix**
 
 if you want to run your python script using a virtual environment on a Unix machine:
+
  - use `#!/usr/bin/env python` as the Shebang:
  
  ```bash
