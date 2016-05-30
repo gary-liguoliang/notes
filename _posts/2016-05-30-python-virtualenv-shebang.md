@@ -54,7 +54,7 @@ if you want to run your python script using a virtual environment on a Unix mach
 
  - use `#!/usr/bin/env python` as the Shebang:
  
- ```bash
+  ```bash
 . venv/bin/activate
 (venv) ./test.py
 ```
