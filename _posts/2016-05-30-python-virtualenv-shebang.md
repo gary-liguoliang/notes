@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: links for coding online
+title: Specify Python interpreter for Python script in Unix and Windows
 tags:
 - python
 ---
