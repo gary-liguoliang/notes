@@ -2,7 +2,7 @@
 layout: post 
 title: 我所理解的敏捷开发 My Understanding of Agile Development
 tags:
-- Agile-敏捷开发
+- agile-敏捷开发
 ---
 
 小时候我有一条农家田园犬，它在院子里左冲右突，上窜下跳，我觉得它很‘敏捷’。 后来某一个秋天的雨后，我在清澈见底的小河边看水里的鲤鱼，
