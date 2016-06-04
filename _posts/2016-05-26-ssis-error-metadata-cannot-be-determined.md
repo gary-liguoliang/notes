@@ -46,12 +46,13 @@ So the question moved to [`sp_describe_first_result_set`](https://msdn.microsoft
 ### Solutions
  - use same output format in SP, e.g.:
 
-  ```sql
+```sql
 IF @Country = 'US'
 	SELECT '1' AS CountryCode, 'BranchCode' as BranchCode
 ELSE
 	SELECT '-1' AS CountryCode, '' as BranchCode
-	```
+```
+	
  - if the output format is different, split the SP to multiple SPs 
 
 
