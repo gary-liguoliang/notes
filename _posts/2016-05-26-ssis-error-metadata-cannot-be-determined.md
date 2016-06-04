@@ -52,7 +52,7 @@ IF @Country = 'US'
 ELSE
 	SELECT '-1' AS CountryCode, '' as BranchCode
 ```
-	
+
  - if the output format is different, split the SP to multiple SPs 
 
 
