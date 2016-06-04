@@ -6,5 +6,5 @@ gems:
    - jekyll-paginate
    - jekyll-sitemap
 baseurl: /notes
-paginate: 15 
+paginate: 20
 paginate_path: "/page:num/"

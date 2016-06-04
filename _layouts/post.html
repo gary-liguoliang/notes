@@ -3,18 +3,30 @@ layout: default
 ---
 <article class="post">
   <h1>{{ page.title }}</h1>
-  
+
   {% include post-tags.html %}
 
   <div class="entry">
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+  <div class="date text-right text-muted" style="font-size:12px">
+    - {{ page.date | date: "%Y-%m-%d" }}
+    <a href="https://github.com/guoliang-dev/notes/edit/gh-pages/{{ page.path }}">edit</a>
+    <hr />
   </div>
-
 </article>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- new -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4700775013300998"
+     data-ad-slot="6737447649"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div id="disqus_thread"></div>
 <script>
@@ -40,4 +52,3 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 <script id="dsq-count-scr" src="//gl-dev.disqus.com/count.js" async></script>
-

@@ -20,42 +20,46 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
+
+.box {
+  border-top:1px solid darkgrey;
+  border-bottom:1px solid darkgrey;
+}
+
 </style>
     </head>
     <body>
 
 <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <h2 class="title"><a class="extra" href="/notes">#dev-notes</a></h2>
-            </div>
+  <div class="site">
+      <div class="header">
+        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+        <h2 class="title"><a class="extra" href="/notes/">#dev-notes</a></h2>
+      </div>
+  </div>
 
-                {{ content }}
+  <div class="row">
+    <div class="col-md-9">  {{ content }}</div>
+    <div class="col-md-3">
+      <div class="box">
+        {% for tag in site.tags %}
+          <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+            <a href="{{site.baseurl}}/tags/#{{ tag | first | slugize }}">
+              {{ tag | first }}
+            </a>
+          </span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 
-          </div>
-
-<h3><small>tags</small></h3>
-<p class="bg-info">
-{% for tag in site.tags %}
-  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
-    <a href="{{site.baseurl}}/tags/#{{ tag | first | slugize }}">
-      {{ tag | first }}
-    </a>
-  </span>
-{% endfor %}
-</p>
-
-<a href="https://github.com/guoliang-dev/notes/edit/gh-pages/{{ page.path }}">
-Edit this page on GitHub
-</a>
-
-</div> <!-- /container -->
+</div>
 
 <div class="footer navbar-fixed-bottom" >
   <p class="text-center text-muted" style="margin: 0px; padding: 0px">
     <a href="http://dev.liguoliang.com">Home</a> | <a href="https://github.com/guoliang-dev">GitHub</a> | <a href="http://liguoliang.com">liguoliang.com<a>
   </p>
 </div>
+
 </body>
 </html>
