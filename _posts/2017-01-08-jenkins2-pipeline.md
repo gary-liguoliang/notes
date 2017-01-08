@@ -11,7 +11,8 @@ tags:
 
 instead of `FreeStyle` jobs, let's try the pipeline as code:
 I created a new `Pipeline` project with the fllowing code: 
-```
+
+```groovy
 node {
    stage ('Check out') {
         sh name:"print date", script: 'date', label: "Current date"
@@ -38,5 +39,6 @@ node {
    }
 }
 ```
+
 
 ![jenkins2-pipeline-blueocean](https://raw.githubusercontent.com/guoliang-dev/notes/gh-pages/_resources/jenkins2-pipeline-blueocean.png)
