@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Pipeline as code#58; Jenkins2 with Pipeline and BlueOcean
+title: Pipeline as code&#58; Jenkins2 with Pipeline and BlueOcean
 tags:
  - Jenkins
  - CI
@@ -39,4 +39,4 @@ node {
 }
 ```
 
-![jenkins2-pipeline-blueocean](_resources/jenkins2-pipeline-blueocean.png)
+![jenkins2-pipeline-blueocean](https://raw.githubusercontent.com/guoliang-dev/notes/gh-pages/_resources/jenkins2-pipeline-blueocean.png)
