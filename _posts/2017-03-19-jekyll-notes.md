@@ -15,11 +15,11 @@ disqus:
   shortname: <short-name>
 ```
 **issue with the default theme(Minima): We were unable to load Disqus.**
-however it seems that the code in [default jekyll theme minima/disqus_comments.html](https://github.com/jekyll/minima/blob/master/_includes/disqus_comments.html) is outdated according to code in Disqus. 
+however it seems that the code in [default jekyll theme minima/disqus_comments.html](https://github.com/jekyll/minima/blob/master/_includes/disqus_comments.html) is not working with my Disqus. 
 
-**solution: **
+**solution:**
 
-created [_includes/disqus_comments.html](https://github.com/guoliang-dev/guoliang-dev.github.io/blob/master/_includes/disqus_comments.html) with the latest code from Disque. 
+created [_includes/disqus_comments.html](https://github.com/guoliang-dev/guoliang-dev.github.io/blob/master/_includes/disqus_comments.html) with the code copied from Disque. 
 
 ## Google analytics 
 
