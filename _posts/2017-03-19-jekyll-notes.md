@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Jekyll notes for - Disqus & google_analytics
+title: Jekyll notes: adding disqus, google analytics, social meida icons
 tags:
 - jekyll
 ---
@@ -31,3 +31,12 @@ google_analytics: <UA-CODE>
 
 
 for more config comments: [barryclark/jekyll-now/blob/master/_config.yml](https://github.com/barryclark/jekyll-now/blob/master/_config.yml)
+
+## Social media icons
+
+you may want to try an awesome SVG collection which follows [Creative Commons Zero v1.0 Universal](https://github.com/danleech/simple-icons/blob/gh-pages/LICENSE.md):
+
+https://github.com/danleech/simple-icons
+
+
+
