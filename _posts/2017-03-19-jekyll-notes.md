@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Jekyll notes: adding disqus, google analytics, social meida icons
+title: Jekyll notes&#58; adding disqus, google analytics, social meida icons
 tags:
 - jekyll
 ---
