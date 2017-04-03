@@ -7,5 +7,5 @@ tags:
 
 ## Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin: Return code is: 502, ReasonPhrase: Bad Gateway
 
-it may not related to any network / proxy configuration. check your maven security setup: 
+it may not be related to any network / proxy configuration. check your maven security setup: 
 https://maven.apache.org/guides/mini/guide-encryption.html
