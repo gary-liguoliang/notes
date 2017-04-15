@@ -12,7 +12,8 @@ my domain at `Google Domians` is not working with this error message:
 Domain is not serving because its email address is not verified. Resend verification email
 ```
 
-looks like I need to verify my email in the whois info, unluckily, I used a `info@my-domain.com`, this is a typical [`Circular dependency`](https://en.wikipedia.org/wiki/Circular_dependency):
+looks like I need to verify my email in the whois info, unluckily, I used a `info@my-domain.com`, this is a typical [Circular dependency](https://en.wikipedia.org/wiki/Circular_dependency):
+
  - in order to reactivate my domain, I need to access my email
  - in order to access my email, I need to reactivate my domain
  
@@ -26,5 +27,5 @@ looks like I need to verify my email in the whois info, unluckily, I used a `inf
  and it works. 
  
  ## conclusion
-  - prefer to use a gmail instead of a xx@my-domain.com
+  - prefer to use a gmail instead of a xx@my-domain.com in your whois info
   - update you whois info promptly. 
