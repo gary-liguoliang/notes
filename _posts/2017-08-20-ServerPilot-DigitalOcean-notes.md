@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: ServerPilot-DigitalOcean notes
+title: ServerPilot-DigitalOcean notes - review access log and block suspicious IP
 tags:
 - ServerPilot
 - DigitalOcean
