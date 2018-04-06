@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: JVM tuning
+title: JVM profiling and tuning
 tags:
 - jvm
 ---
