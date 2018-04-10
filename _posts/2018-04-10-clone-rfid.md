@@ -11,7 +11,7 @@ useful links:
  - https://zhuanlan.zhihu.com/p/29661557
  - http://www.proxmark.org/forum/viewtopic.php?id=2554
 
-## How to clone a low frenquence (125KHZ) RFID card
+## How to clone a low frequence (125KHZ) RFID card
 ```
 proxmark3> lf search
 Reading 30000 bytes from device memory
