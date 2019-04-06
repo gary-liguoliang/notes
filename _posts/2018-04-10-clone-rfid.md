@@ -100,3 +100,11 @@ proxmark3> script run dumptoemul.lua
 proxmark3> hf mf cload <uid>
 Loaded from file: <uid>.eml
 ```
+
+### reset UID 
+
+Usage:  hf mf csetuid <UID 8 hex symbols> <w>
+sample:  hf mf csetuid 01020304 w
+Set block data for magic Chinese card (only works with!!!)
+If you want wipe card then add 'w' into command lin
+copied from: http://www.proxmark.org/forum/viewtopic.php?id=2015
