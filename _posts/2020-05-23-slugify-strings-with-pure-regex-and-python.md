@@ -11,10 +11,10 @@ tags:
 There are many libs to do slugify, that's cool. but if you just want to slugify simple strings without any dependency, you may want to try:
 
 ```
->>> s="Is this is a good title?"
+>>> s="Is this a good title?"
 >>> re.sub("[-]+", "-", re.sub("[^a-zA-Z0-9]", "-", s)).lower()
 
-'is-this-is-a-good-title-'
+'is-this-a-good-title-'
 ```
 
 purely simple `regex` (yes, I agree, I'm bad at regex, so I copy pasted some from stackoverflow): 
