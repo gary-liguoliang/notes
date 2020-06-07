@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Data-Driven Development + Boring Technology"
